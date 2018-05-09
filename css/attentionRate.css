@@ -1,0 +1,55 @@
+
+
+/*attentionRate-homePage*/
+.attentionRate-homePage {
+    position: relative;
+    margin-top: 60px;
+    height: 260px;
+    background-image: url("../img/attentionRate/attentionRate_bg01.png");
+    text-align: center;
+    /*border: 5px solid red;*/
+}
+
+.attentionRate-homePage p {
+    position: relative;
+    top: 100px;
+    z-index: 99;
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+
+/*attentionRate-public*/
+.attentionRate-public {
+    min-width: 1200px !important;
+    background-color: #fff;
+}
+
+.attentionRate-public >div {
+    position: relative;
+    margin: 0px auto;
+    height: 100%;
+    width: 1280px;
+    min-width: 1280px;
+}
+
+
+/*attentionRate-idea*/
+.attentionRate-idea {
+    height: 402px;
+}
+
+/*attentionRate-study*/
+.attentionRate-study {
+    height: 264px;
+}
+
+/*attentionRate-behaviour*/
+.attentionRate-behaviour {
+    height: 284px;
+}
+
+/*attentionRate-mentality*/
+.attentionRate-mentality {
+    height: 352px;
+}

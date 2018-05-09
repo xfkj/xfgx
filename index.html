@@ -1,0 +1,1034 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>小凡公学</title>
+    <script src="https://cdn.bootcss.com/jquery/1.12.0/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.bootcss.com/lazysizes/4.0.0-rc3/lazysizes.min.js"></script>
+    <script src="js/parallax.min.js" async></script>
+    <link rel="shortcut icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/alertify.core.css">
+    <link rel="stylesheet" href="css/alertify.default.css">
+    <script src="js/alertify.min.js"></script>
+    <link rel="stylesheet" href="css/demo.css">
+    <script src="js/jquery.rotate.min.js"></script>
+</head>
+<body style="margin: 0; z-index: 5">
+
+    <header class="header-navigation web-width top" id="header">
+        <div class="main-div main-top">
+            <img class="lazyload" data-src="img/main/icon_xfgx.png" height="45" width="193"/>
+            <ul>
+                <li class="link-li"  onclick="window.location.href='#';">
+                    <a class="link"  title="首页">
+                        首页
+                    </a>
+                </li>
+                <li class="link-li" onclick="window.location.href='#curriculumSystem';">
+                    <a class="link" href="#curriculumSystem" title="课程">课程</a>
+                </li>
+                <li class="link-li" onclick="window.location.href='#xfTeacher';">
+                    <a class="link" href="#xfTeacher" title="师资">师资</a>
+                </li>
+                <li class="link-li" onclick="window.location.href='#publicPraise';">
+                    <a class="link" href="#publicPraise" title="口碑">口碑</a>
+                </li>
+                <li class="link-li" onclick="window.location.href='#aboutXF';">
+                    <a class="link link-about" href="#aboutXF" title="关于小凡">关于小凡</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <img src="img/main/banner.jpg" alt="hidden banner img" style="display: none;">
+    <div class="parallax-container web-width homePage"
+         data-parallax="scroll"
+         data-image-src="img/main/banner.jpg"
+         naturalheight="600"
+         style="">
+        <div id="homePoge-div">
+            <div class="main-div">
+                <div class="homePage-signUp">
+                    <div>
+                        <form id="homePageForm">
+                            <input type="text" name="user_name"
+                                   required="required"
+                                   placeholder="请输入你的姓名" data-label="姓名">
+
+                            <input type="text" name="user_telephone"
+                                   required="required"
+                                   placeholder="请输入你的电话" data-label="电话">
+                        </form>
+
+                        <button id="homePageBtn">立即预约</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="web-width web-zIndex web-secondView">
+        <div class="main-div accordion">
+
+            <img src="img/main/icon_bg01.png" class="lazyload main-secondView-bg"/>
+
+            <img data-src="img/main/icon_mouse.png"
+                 class="lazyload secondView-mouse"/>
+
+            <ul>
+                <li class="first">
+                    <a href="trainingBattalion/winterTrainingCamp.html">
+                        <div class="imgTop imgTop-first">
+                            <div class="accordion-string accordion-string-block">
+                                <img class="accordion-img accordion-slide" src="img/main/accordionBanner/banner_title01.png" height="96" width="96"/>
+
+                                <button class="btn">报名咨询</button>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="trainingBattalion/springTrainingCamp.html">
+                        <div class="imgTop imgTop-second">
+
+                            <div class="accordion-string">
+                                <img class="accordion-img" src="img/main/accordionBanner/banner_title03.png" height="96" width="96"/>
+
+                                <button class="btn btn-bgColor-two">报名咨询</button>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="trainingBattalion/sprintCamp.html">
+                        <div class="imgTop imgTop-third">
+
+                            <div class="accordion-string">
+                                <img class="accordion-img" src="img/main/accordionBanner/banner_title02.png" height="96" width="96"/>
+
+                                <button class="btn btn-bgColor-three">报名咨询</button>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="web-width web-zIndex web-thirdView">
+        <div class="main-div main-thirdView main-zIndex">
+            <div>
+                <div class="main-title">
+                    <img src="img/main/icon_line.png" class="line main-thirdView-firstline lazyload"/>
+
+                    <h1 class="main-thirdView-h">为什么选择小凡</h1>
+
+                    <img src="img/main/icon_line.png"
+                         class="line main-thirdView-secondline lazyload"/>
+                </div>
+
+                <img src="img/main/why/foreword_01.png" height="140" width="1118"/>
+
+                <div class="studying why-imgDiv why-hover-left effect-layla">
+
+                        <div id="main-thirdView-studying" class="why-shade-bgDiv"
+                             onclick="window.location.href='environment.html';">
+
+                            <div class="why-shadeDiv"></div>
+                            <div>
+                                <p class="why-p thirdView-p preamble">
+                                    高考在即<br />
+                                    还没有准备好的你<br />
+                                    在学校吃力跟随大家的学习进度<br />
+                                    在周末零散突击薄弱知识<br />
+                                    <small>
+                                        就！是！<br />
+                                        很！没！底！
+                                    </small>
+                                </p>
+                            </div>
+
+                            <div >
+                                <figcaption>
+                                    <div class="figcaption-op">
+                                        <span>小凡公学为你量身订制了全封闭式的学习环境</span>
+
+                                        <div >
+                                            <div class="figcaption-op-left"></div>
+                                            <div class="figcaption-op-right"></div>
+                                        </div>
+
+                                        <p class="why-p-hover  preamble">
+                                            我们专注全封闭式文化课培训八年，
+                                            从晨读到正课，
+                                            从自习到晚辅导，<br />
+                                            极致的沉浸式学习体验，
+                                            优秀的住宿模式配合安全严谨的门禁监控管理，<br />
+                                            保证每一位学生的安全，让家长放心
+                                        </p>
+
+                                        <button class="btn-readMore">查看更多</button>
+                                    </div>
+                                </figcaption>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="web-width web-zIndex web-fourthView">
+        <div class="main-div main-fourthView main-zIndex">
+            <img src="img/main/why/foreword_02.png" height="140" width="1118"/>
+
+            <div  class="tifen why-imgDiv why-hover-right effect-layla">
+                <div id="main-fourthView-tifen" class="why-shade-bgDiv" onclick="window.location.href='increaseScoresBy.html';">
+                    <div class="why-shadeDiv"></div>
+
+                    <div>
+                        <p class="fourthView-p why-p preamble">
+                            成绩的提升取决于<br />
+                            科学的学习方法<br />
+                            <small>
+                                从学渣到<br />
+                                学霸<br />
+                            </small>
+                            挑战的不是你的学校好坏<br />
+                            而是你是否正确地学习
+                        </p>
+                    </div>
+
+                    <div>
+                        <figcaption>
+                            <div class="figcaption-op">
+                                <span>小凡公学给你提供强大的助力</span>
+
+                                <div >
+                                    <div class="figcaption-op-left"></div>
+                                    <div class="figcaption-op-right"></div>
+                                </div>
+
+                                <p class="why-p-hover preamble">
+                                结合多年高考冲刺培训经验<br />
+                                小凡公学出版了多本针对高考学生迅速提分的教材<br />
+                                自主研发的线上教学辅助工具与教学管理系统更高效地利用学习时间<br />
+                            </p>
+
+                                <button class="btn-readMore">查看更多</button>
+                            </div>
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="web-width web-zIndex web-fifthView">
+        <div class="main-div main-fifthView">
+            <img src="img/main/why/foreword_03.png" height="140" width="1118"/>
+
+            <div class="attentionRate why-imgDiv why-hover-left effect-layla">
+                <div id="main-fifthView-attentionRate" class="why-shade-bgDiv"
+                     onclick="window.location.href='attentionRate.html';">
+                    <div class="why-shadeDiv"></div>
+
+                    <div>
+                        <p class="fifthView-p why-p preamble">
+                            谁不想成为课堂中的焦点<br />
+                            获得每一位老师的关注<br />
+                            但是角落里的自己<br />
+                            却没有勇气举起手<br />
+                            <small>
+                                说出<br />
+                                内心的声音
+                            </small>
+                        </p>
+                    </div>
+
+                    <div>
+                        <figcaption>
+                            <div class="figcaption-op">
+                                <span>小凡公学陪你、教你、逼你、鼓励你</span>
+
+                                <div >
+                                    <div class="figcaption-op-left"></div>
+                                    <div class="figcaption-op-right"></div>
+                                </div>
+
+                                <p class="why-p-hover preamble">
+                                无论是给你指路的老师，
+                                还是与你一同奋进的同学<br />
+                                都会尊重且珍视你的梦想，
+                                做你的追梦同路人<br />
+                                主讲老师、助教老师、班主任和政教老师的“四对一”模式<br />
+                                给予每一位学生无微不至的关怀和应有的尊重<br />
+                                </p>
+
+                                <button class="btn-readMore">查看更多</button>
+                            </div>
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="web-width web-zIndex web-sixthView">
+        <div class="main-div main-sixthView ">
+
+            <img src="img/main/why/foreword_04.png" height="139" width="1118"/>
+
+            <div class="superScholar why-imgDiv why-hover-right effect-layla">
+                <div id="main-sixthView-superScholar" class="why-shade-bgDiv"
+                     onclick="window.location.href='superScholar.html';">
+                    <div class="why-shadeDiv"></div>
+
+                    <div>
+                        <p class="sixthView-p why-p preamble">
+                            谁的青春不留<small>遗憾</small><br />
+                            转眼到高三<br />
+                            才发现大把的时间都<br />
+                            已被用来挥霍<br />
+                            曾经的<small>梦想</small>看似遥不可及
+                        </p>
+                    </div>
+
+                    <div>
+                        <figcaption>
+                            <div class="figcaption-op">
+                                <span>小凡公学，一个让你努力到自己都害怕的地方</span>
+
+                                <div >
+                                    <div class="figcaption-op-left"></div>
+                                    <div class="figcaption-op-right"></div>
+                                </div>
+
+                                <p class="why-p-hover preamble">
+                                    规范化的积分管理制度<br />
+                                    让你重新找回那个绝不轻言放弃的自己<br />
+                                    只要你还想，
+                                    就永远都来得及<br />
+                                    优秀的学习气氛，
+                                    发掘你的潜力，
+                                    突破你的极限
+                                </p>
+
+                                <button class="btn-readMore">查看更多</button>
+                            </div>
+                        </figcaption>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="curriculum web-zIndex web-width">
+        <a  class="anchor" name="curriculumSystem" id="curriculumSystem"></a>
+
+        <div class="curriculum-div main-div">
+            <div class="main-title">
+
+                <img src="img/main/icon_line.png" class="line main-thirdView-firstline lazyload"/>
+
+                <h1>课程体系</h1>
+
+                <img src="img/main/icon_line.png" class="line main-thirdView-secondline lazyload"/>
+            </div>
+
+            <div class="curriculum-gradient">
+
+
+                <div class="curriculum-kc curriculum-kc-shuqi" onclick="window.location.href='curriculum.html#summerHolidays';">
+                    <div>
+                        <img src="img/main/icon_course1.png" class="lazyload"/>
+                    </div>
+
+                    <p>新高三暑假衔接营</p>
+                </div>
+
+                <div class="curriculum-kc curriculum-kc-xuankao" onclick="window.location.href='curriculum.html#autumn';">
+                    <div>
+                        <img src="img/main/icon_course2.png" class="lazyload"/>
+                    </div>
+
+                    <p>秋季选考冲刺营</p>
+                </div>
+
+                <div class="curriculum-kc curriculum-kc-hangjia" onclick="window.location.href='curriculum.html#winterVacation';">
+                    <div>
+                        <img src="img/main/icon_course3.png" class="lazyload"/>
+                    </div>
+
+                    <p>高考寒假集训营<br /> <small>（调整节奏，冲刺语数外）</small></p>
+                </div>
+
+                <div class="curriculum-kc curriculum-kc-gaokao" onclick="window.location.href='curriculum.html#spring-gaokao';">
+                    <div>
+                        <img src="img/main/icon_course4.png" class="lazyload"/>
+                    </div>
+
+                    <p>春季高考冲刺营</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="teacher web-width web-zIndex">
+        <a class="anchor" name="xfTeacher" id="xfTeacher"></a>
+
+        <div class="aboutUs-div main-div">
+            <div class="main-title">
+                <img src="img/main/icon_line.png" class="line main-thirdView-firstline lazyload"/>
+
+                <h1>小凡老师</h1>
+
+                <img src="img/main/icon_line.png" class="line lazyload
+                    main-thirdView-secondline "/>
+            </div>
+
+            <p class="teacher-leadin">只有优秀的老师 才能培养出优秀的学生</p>
+
+            <div class="teacher-img"></div>
+
+            <div class="teacher-summary">
+                <div class="teacher-background teacher-display">
+                    <div class="yuan">
+                        <img src="img/main/icon_beijing.png" height="40" width="40" class="lazyload"/>
+                    </div>
+
+                    <h2>优秀的教育背景</h2>
+                    <p>
+                        小凡公学的教师<br />
+                        毕业于美国名校或者国内<br />
+                        985、211等重点名校<br />
+                        智商、颜值都很高
+                    </p>
+                </div>
+
+                <div class="teacher-experience teacher-display">
+                    <div class="yuan">
+                        <img src="img/main/icon_jiaoxue.png" height="40" width="40" class="lazyload"/>
+                    </div>
+                    <div>
+                        <h2>丰富的教学经验</h2>
+                        <p>
+                            小凡的老师拥有十余年一线教学经验<br />
+                            从严格选拔到专业培训<br />
+                            每周固定教研与磨课<br />
+                            追求每一节课的完美<br />
+                            经过千锤百炼<br />
+                            专注高考冲刺的卓越成绩<br />
+                        </p>
+                    </div>
+                </div>
+
+                <div class="teacher-team teacher-display">
+                    <div class="yuan">
+                        <img src="img/main/icon_tuandui.png" height="40" width="40" class="lazyload"/>
+                    </div>
+                    <h2>强大的教研团队</h2>
+                    <p>
+                        小凡的线下教研团队<br>
+                        拥有丰富的高考教材编写经验<br>
+                        数部著作成功提分超万人<br />
+                        <br />
+                        小凡的线上教研团队<br />
+                        专注研发最适用于高三学生的线上辅助App<br />
+                        让每个小凡学子都享受个性化的学习
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="web-width web-zIndex publicPraise">
+        <a class="anchor" name="publicPraise" id="publicPraise"></a>
+
+        <div class="main-title">
+            <img src="img/main/icon_line.png" class="line main-thirdView-firstline lazyload"/>
+
+            <h1>学员口碑</h1>
+
+            <img src="img/main/icon_line.png" class="line lazyload
+                    main-thirdView-secondline "/>
+        </div>
+
+        <div class="main-div publicPraise-bg"></div>
+    </div>
+
+
+    <div class="web-width about web-zIndex">
+        <a class="anchor" name="aboutXF" id="aboutXF"></a>
+
+        <div class="main-div">
+            <div class="main-title">
+                <img src="img/main/icon_line.png" class="line main-thirdView-firstline lazyload"/>
+
+                <h1>关于小凡</h1>
+
+                <img src="img/main/icon_line.png" class="line main-thirdView-secondline lazyload"/>
+            </div>
+
+            <p class="about-leadin">
+                小凡公学，作为非凡教育的子品牌，致力于打造全国最优质的高中生全封闭式学习培训，<br />
+                传承非凡教育对高考十多年的教育与研究经验。<br />
+                小凡公学为广大考生提供高考前的临门一脚，通过短期集训的方式帮学子筑梦名校。
+            </p>
+
+            <!--校园风采-->
+            <div class="campus-title campus-school">
+                <img class="lazyload" src="img/main/aboutXF/aboutXF_title01.png"
+                     height="60" width="1200"/>
+            </div>
+            <div id="campus-box">
+                <div class="slide">
+                    <ul>
+                        <li>
+                            <div class="slide-img-shade">
+                                <p>小凡公学</p>
+                            </div>
+                            <img class="lazyload" src="img/main/aboutXF/campus/WechatIMG295.jpeg" alt="小凡公学">
+                        </li>
+                        <li>
+                            <div>
+                                <p>教室走廊</p>
+                            </div>
+                            <img class="lazyload" src="img/main/aboutXF/campus/WechatIMG296.jpg" alt="教室走廊">
+                        </li>
+                        <li>
+                            <div>
+                                <p>学生宿舍</p>
+                            </div>
+                            <img class="lazyload" src="img/main/aboutXF/campus/WechatIMG297.jpg" alt="学生宿舍">
+                        </li>
+                        <li>
+                            <div>
+                                <p>教室</p>
+                            </div>
+                            <img class="lazyload" src="img/main/aboutXF/campus/WechatIMG298.jpeg" alt="教室">
+                        </li>
+                        <li>
+                            <div>
+                                <p>休息区</p>
+                            </div>
+                            <img class="lazyload" src="img/main/aboutXF/campus/WechatIMG299.jpeg" alt="休息区">
+                        </li>
+                        <li>
+                            <div>
+                                <p>卫生间</p>
+                            </div>
+                            <img class="lazyload" src="img/main/aboutXF/campus/WechatIMG300.jpeg" alt="卫生间">
+                        </li>
+                        <li>
+                            <div>
+                                <p>超市外景</p>
+                            </div>
+                            <img class="lazyload" src="img/main/aboutXF/campus/WechatIMG396.jpeg" alt="超市外景">
+                        </li>
+                        <li>
+                            <div>
+                                <p>超市内景</p>
+                            </div>
+                            <img class="lazyload" src="img/main/aboutXF/campus/WechatIMG397.jpeg" alt="超市内景">
+                        </li>
+                        <li>
+                            <div>
+                                <p>休息区</p>
+                            </div>
+                            <img class="lazyload" src="img/main/aboutXF/campus/WechatIMG398.jpeg" alt="休息区">
+                        </li>
+                        <li>
+                            <div>
+                                <p>食堂</p>
+                            </div>
+                            <img class="lazyload" src="img/main/aboutXF/campus/WechatIMG399.jpeg" alt="食堂">
+                        </li>
+                    </ul>
+
+                    <div class="arraw">
+                        <a  class="next">
+                            <img src="img/main/aboutXF/campus/right.png" height="48" width="32"/>
+                        </a>
+                        <a  class='prev'>
+                            <img src="img/main/aboutXF/campus/left.png" height="48" width="32"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 联系方式 -->
+            <div class="campus-title">
+                <img class="lazyload" src="img/main/aboutXF/aboutXF_title02.png"
+                     height="60" width="1200"/>
+            </div>
+            <div class="contactWay lazyload"></div>
+
+            <!-- 免费咨询 -->
+            <div class="campus-title">
+                <img class="lazyload" src="img/main/aboutXF/aboutXF_title03.png"
+                     height="60" width="1200"/>
+            </div>
+
+            <table class="table-leaveWord">
+                <form id="xfzxForm" action="">
+                    <tr >
+                        <th>
+                            <span>姓名:</span>
+                            <input type="text" name="user_name" required="required" placeholder="请输入你的姓名" data-label="姓名">
+                        </th>
+                        <th>
+                            <span>电话:</span><input type="text" name="user_telephone"
+                                                                  required="required" placeholder="请输入你的电话" data-label="电话">
+
+                        </th>
+                        <th class="table-lW-th">
+                            <span>留言:</span>
+                            <input type="text" name="user_leaveWord"
+                                   placeholder="请输入你的留言" data-label="留言">
+
+                        </th>
+                        <th class="th-btn">
+                            <button id="submitBtn" class="submitBtn">立即咨询</button>
+                        </th>
+                    </tr>
+                </form>
+            </table>
+
+            <h2>"小凡公学客服人员会在24小时内联系您"</h2>
+        </div>
+    </div>
+
+
+    <div class="web-width web-zIndex web-bottom">
+        <div class="main-div main-bottom">
+            <div>
+                <div class="main-address">
+                    <p>
+                        <i class="iconAddress"></i>
+                        联系地址: <span class="underline">硅谷校区</span>&nbsp;&nbsp;杭州市富阳九龙大道富春硅谷园区4号楼
+                        <span class="verticalLine">|</span>
+                        <span class="underline">银湖校区</span>&nbsp;&nbsp;杭州市富阳区银湖街道金子垄5号
+                        <span class="verticalLine">|</span>
+                        <span class="underline">象山校区</span>&nbsp;&nbsp;杭州市西湖区转塘镇美院南山路象山国际1号楼10F
+                    </p>
+                </div>
+
+                <div class="telephone">
+                    <p><i class="iconTelePhone"></i>联系电话：17767162695</p>
+                </div>
+
+                <div class="QRCode">
+                    <div class="QRCode-img">
+                        <img src="img/QRCode.jpg"/>
+                    </div>
+
+                    <div class="QRCode-str">
+                        <p>小凡公学公众号</p>
+                    </div>
+                </div>
+                <div class="copr">
+                    <p>
+                        浙ICP备12001281号
+                        <span class="verticalLine">|</span>
+                        杭州小凡教育科技有限公司&nbsp;&nbsp;&nbsp;版权所有</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="web-width web-dock" id="dock">
+        <div></div>
+        <div class="main-div main-dock">
+            <form id="dockForm">
+                <p>
+                    <span>
+                        联系电话: <br />
+                        <small>17767162695</small>
+                    </span>
+
+                    <span class="dock-introduction">
+                        免费领取 价值688元 课程礼包
+                    </span>
+
+                    <span>
+                        <input type="text" name="user_name" required="required"
+                               placeholder="请输入你的姓名" data-label="姓名">
+
+
+                        <input type="text" name="user_telephone" required="required"
+                               placeholder="请输入你的电话" data-label="电话">
+                    </span>
+
+                    <span>
+                        <button id="dockBtn" class="submitBtn main-dock-submitBtn">立即预约</button>
+                    </span>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js" ></script>
+    <script src="js/jquery-bigSlider.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var _index =0;
+
+            $('.effect-layla').mouseover(function () {
+                _index = $(this).index();
+
+                $(".figcaption-op-left").stop().animate({ left: -75 + "px" },1000);
+              $(".figcaption-op-right").stop().animate({ right: -75 + "px" },1000);
+           });
+
+           $('.effect-layla').mouseout(function () {
+              $(".figcaption-op-left").stop().animate({ left: 0 + "px" },100);
+              $(".figcaption-op-right").stop().animate({ right: 0 + "px" },1000);
+           });
+        });
+
+        //手风琴动画效果
+        $(function () {
+            var _index =0;
+            var _rotate_index = 0;
+
+            $(".accordion ul li").mouseover(function(){
+                _index=$(this).index();
+
+                $(this).stop().animate({ width: 1020 },600)
+                    .siblings(".accordion ul li").stop().animate({ width: 85 },600);
+
+                if(_rotate_index !== _index) {
+                    $(".accordion-img").eq(_rotate_index).removeClass("accordion-slide");
+                    $(".accordion-img").eq(_index).addClass("accordion-slide");
+                }
+
+                _rotate_index = _index;
+            });
+
+            $(".accordion ul li").mouseout(function () {
+                $(".accordion ul li").eq(0).stop().animate({ width: 1020 },600)
+                    .siblings(".accordion ul li").stop().animate({ width: 85 },600);
+
+                    $(".accordion-img").eq(_rotate_index).removeClass("accordion-slide");
+                    $(".accordion-img").eq(0).addClass("accordion-slide");
+
+                _rotate_index = 0;
+                _index =0;
+
+            });
+        });
+
+        //picture Scroll
+        jQuery(document).ready(function() {
+            jQuery('#wrapper').bigSlider();
+        });
+
+        //Consultation column
+        window.onload = function () {
+            //右侧导航栏对应目标高度
+            var heightList = [0,3539,4057,5177,5912];
+            //需要改变样式的元素和样式名
+            var cartesProperties = [{
+                objetStr: ".link-li",
+                className: 'li-onClike'
+            },{
+                objetStr: ".link-li a",
+                className: 'link-onClike'
+            }];
+
+            var docuFunction = dock;
+            docuFunction(500,7100,heightList,cartesProperties);
+        };
+
+        //给positon：fiexd布局对象根据scrollLeft设定left
+        window.onscroll = function () {
+            var idList = new Array("homePoge-div");
+            var onscroll = windowOnscroll;
+            onscroll(idList);
+        };
+
+
+        //Consultation button trigger
+        $(function() {
+            $('#submitBtn').click(function(e) {
+                e.preventDefault();
+                sumbitMonth('xfzxForm');
+                return false;
+            });
+
+            $('#dockBtn').click(function(e) {
+                e.preventDefault();
+                sumbitMonth('dockForm');
+                return false;
+            });
+
+            $('#homePageBtn').click(function (e) {
+                e.preventDefault();
+                sumbitMonth('homePageForm');
+                return false;
+            })
+        });
+
+        //轮播图
+        $(function() {
+
+            var box = document.querySelector('#campus-box');
+            var slide = document.querySelector('.slide');
+            var arraw = document.querySelector('.arraw');
+            var lis = document.querySelectorAll('#campus-box li');
+            var json = [  //  包含了5张图片里面所有的样式
+                {   //  1
+                    width:370,
+                    height:260,
+                    top:35,
+                    bottom:35,
+                    left:267,
+                    opacity:20,
+                    z:2,
+                    id:1
+                },{   //  2
+                    width:370,
+                    height:260,
+                    top:35,
+                    bottom:35,
+                    left:237,
+                    opacity:20,
+                    z:3,
+                    id:2
+                },{   //  3
+                    width:370,
+                    height:260,
+                    top:35,
+                    bottom:35,
+                    left:207,
+                    opacity:20,
+                    z:4,
+                    id:3
+                },
+                {  // 4
+                    width:370,
+                    height:260,
+                    top:35,
+                    bottom:35,
+                    left:57,
+                    opacity:60,
+                    z:5,
+                    id:4
+                },
+                {   // 5
+                    width:467,
+                    height:327,
+                    top:0,
+                    bottom:0,
+                    left:380,
+                    opacity:100,
+                    z:6,
+                    id:5
+                },
+                {  // 6
+                    width:370,
+                    height:260,
+                    top:35,
+                    bottom:35,
+                    left:773,
+                    opacity:60,
+                    z:5,
+                    id:6
+                },
+                {   //7
+                    width:370,
+                    height:260,
+                    top:35,
+                    bottom:35,
+                    left:588,
+                    opacity:20,
+                    z:4,
+                    id:7
+                },
+                {   //8
+                    width:370,
+                    height:260,
+                    top:35,
+                    bottom:35,
+                    left:558,
+                    opacity:20,
+                    z:3,
+                    id:8
+                },
+                {   //9
+                    width:370,
+                    height:260,
+                    top:35,
+                    bottom:35,
+                    left:528,
+                    opacity:20,
+                    z:2,
+                    id:9
+                },
+                {   //10
+                    width:370,
+                    height:260,
+                    top:35,
+                    bottom:35,
+                    left:498,
+                    opacity:20,
+                    z:1,
+                    id:10
+                }
+            ];
+
+            box.addEventListener('mouseover', function(){
+                animateLi(arraw, {opacity: 100});
+            });
+
+            box.addEventListener('mouseout', function(){
+                animateLi(arraw, {opacity: 0});
+            });
+
+            var next = document.querySelector('.next');
+            var prev = document.querySelector('.prev');
+            var timer = null;
+            var flag = true;
+
+            next.addEventListener('click', function(){
+                clearInterval(timer);
+                if(flag == true){
+                    move(true);
+                    flag = false;
+                }
+            });
+
+            next.addEventListener('mouseleave', function(){
+                clearInterval(timer);
+                run();
+            });
+
+            prev.addEventListener('click', function(){
+                clearInterval(timer);
+                if(flag == true){
+                    move(false);
+                    flag = false;
+                }
+            });
+
+            prev.addEventListener('mouseleave', function(){
+                run();
+            });
+
+            move();
+
+            run();
+
+            function run(){
+                clearInterval(timer);
+                timer = setInterval(function(){
+                    if(flag == true){
+                        flag = false;
+                        move(true);
+                    }
+                },5000);
+            }
+
+            function move(x){
+                if(x != undefined){
+                    if(x){
+                        json.push(json.shift());
+                    }else{
+                        json.unshift(json.pop());
+                    };
+                };
+
+                for(var i = 0; i<json.length; i++){
+                    animateLi(lis[i],{
+                        width: json[i].width,
+                        top: json[i].top,
+                        bottom: json[i].bottom,
+                        height: json[i].height,
+                        left: json[i].left,
+                        //opacity: json[i].opacity,
+                        zIndex: json[i].z,
+                        i: i
+                    },function(){
+                        flag = true;
+                    })
+                };
+            }
+
+            function animateLi(obj, json, callback){
+                // 先停止定时器
+                clearInterval(obj.timers);
+                obj.timers = setInterval(function(){
+                    var stoped = true;
+
+                    for(var k in json){
+
+                        var leader = 0;
+
+                        if(k == 'opacity'){
+                            leader = Math.round(getStyle(obj, k)*100) || 100;
+                        }else {
+                            leader = parseInt(getStyle(obj, k)) || 0;
+                        };
+
+                        // json[k]是目标位置
+                        var step = (json[k]-leader)/10;
+                        step = step > 0? Math.ceil(step) : Math.floor(step);
+                        leader = leader + step;
+                        if(k == 'opacity'){
+                            obj.style[k] = leader/100;
+                            obj.style['filter'] = 'alpha(opacity='+ leader +')';
+                        }else if(k == 'zIndex'){
+                            obj.style['zIndex'] = json[k];
+                        }else{
+                            obj.style[k] = leader + "px";
+                        }
+                        if(leader != json[k]){
+                            stoped = false;
+                        }
+
+
+                    };
+
+
+                    if(stoped){
+                        clearInterval(obj.timers);
+                        callback && callback();
+                    };
+                },20);
+            };
+
+            //获取属性值
+            function getStyle(obj, attr){
+                if(obj.currentStyle){
+                    return obj.currentStyle[attr];
+                }else{
+                    return window.getComputedStyle(obj, null)[attr];
+                };
+            };
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/*superScholar-homePage*/
+.superScholar-homePage {
+    position: relative;
+    margin-top: 60px;
+    height: 260px;
+    background-image: url("../img/superScholar/icon_bg9.png");
+    text-align: center;
+    /*border: 5px solid red;*/
+}
+
+.superScholar-homePage p {
+    z-index: 99;
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+/*superScholar-provide*/
+.superScholar-provide {
+    position: relative;
+    height: 1600px;
+    background-color: #ffffff;
+}
+
+.superScholar-provide >div {
+    margin: 50px auto;
+    position: relative;
+    text-align: center;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>小凡公学</title>
+
+    <script src="https://cdn.bootcss.com/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/increaseScoresBy.css">
+    <link rel="shortcut icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/alertify.core.css">
+    <link rel="stylesheet" href="css/alertify.default.css">
+    <script src="js/alertify.min.js"></script>
+    <script src="https://cdn.bootcss.com/lazysizes/4.0.0-rc3/lazysizes.min.js"></script>
+
+</head>
+<body style="margin: 0; ">
+    <header class="header-navigation web-width top" id="header">
+        <div class="main-div main-top">
+            <img src="img/main/icon_xfgx.png" height="45" width="193"/>
+            <ul>
+                <li class="link-li"  onclick="history.go(-1)">
+                    <!--onclick="window.location.href='index.html#';">-->
+                    <a class="link" href="/" title="首页">首页</a>
+                </li>
+                <li class="link-li" onclick="window.location.href='index.html#curriculumSystem';">
+                    <a class="link" href="#curriculumSystem" title="课程">课程</a>
+                </li>
+                <li class="link-li" onclick="window.location.href='index.html#xfTeacher';">
+                    <a class="link" href="#xfTeacher" title="师资">师资</a>
+                </li>
+                <li class="link-li" onclick="window.location.href='../index.html#publicPraise';">
+                    <a class="link" href="#publicPraise" title="口碑">口碑</a>
+                </li>
+                <li class="link-li" onclick="window.location.href='index.html#aboutXF';">
+                    <a class="link link-about" href="#aboutXF" title="关于小凡">关于小凡</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="isb-homePage web-width">
+        <p>
+            用最短的时间拿最多的分
+        </p>
+    </div>
+
+    <div class="isb-curriculum web-width isb-public">
+        <div>
+            <img src="img/increaseScoresBy/increaseScoresBy_bg01.png"/>
+        </div>
+    </div>
+
+    <div class="isb-teachingModel web-width isb-public">
+        <div></div>
+        <div>
+            <img src="img/increaseScoresBy/increaseScoresBy_bg02.png"/>
+        </div>
+    </div>
+
+    <div class="isb-teach web-width isb-public">
+        <div>
+            <img src="img/increaseScoresBy/increaseScoresBy_bg03.png"/>
+        </div>
+    </div>
+
+    <div class="web-width web-dock" id="dock">
+        <div></div>
+        <div class="main-div main-dock">
+            <form id="isb_dock_Form">
+                <p>
+                    <span>
+                        联系电话: <br />
+                        <small>400-050-9886</small>
+                    </span>
+
+                    <span>
+                        免费领取 价值688元 课程礼包
+                    </span>
+
+                    <span>
+                        <input type="text" name="user_name" required="required"
+                               placeholder="请输入你的姓名" data-label="姓名">
+
+
+                        <input type="text" name="user_telephone" required="required"
+                               placeholder="请输入你的电话" data-label="电话">
+                    </span>
+
+                    <span>
+                        <button id="isb_dock_Btn" class="submitBtn main-dock-submitBtn">立即预约</button>
+                    </span>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <div class="web-width web-zIndex web-bottom">
+        <div class="main-div main-bottom">
+            <div>
+                <div class="main-address">
+                    <p>
+                        <i class="iconAddress"></i>
+                        联系地址: <span class="underline">硅谷校区</span>&nbsp;&nbsp;杭州市富阳九龙大道富春硅谷园区4号楼
+                        <span class="verticalLine">|</span>
+                        <span class="underline">银湖校区</span>&nbsp;&nbsp;杭州市富阳区银湖街道金子垄5号
+                        <span class="verticalLine">|</span>
+                        <span class="underline">象山校区</span>&nbsp;&nbsp;杭州市西湖区转塘镇美院南山路象山国际1号楼10F
+                    </p>
+                </div>
+
+                <div class="telephone">
+                    <p><i class="iconTelePhone"></i>联系电话:400-050-9886</p>
+                </div>
+
+                <div class="QRCode">
+                    <div class="QRCode-img">
+                        <img src="img/QRCode.jpg"/>
+                    </div>
+
+                    <div class="QRCode-str">
+                        <p>小凡公学公众号</p>
+                    </div>
+                </div>
+                <div class="copr">
+                    <p>
+                        浙ICP备12001281号
+                        <span class="verticalLine">|</span>
+                        杭州小凡教育科技有限公司&nbsp;&nbsp;&nbsp;版权所有</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script>
+        //Consultation column
+        window.onload = function () {
+            var docuFunction = dock;
+            docuFunction(-1,1400);
+        };
+
+        //给positon：fiexd布局对象根据scrollLeft设定left
+        window.onscroll = function () {
+            var idList = new Array();
+            var onscroll = windowOnscroll;
+            onscroll(idList);
+        };
+
+
+        //Consultation button trigger
+        $(function() {
+            $('#isb_dock_Btn').click(function(e) {
+                e.preventDefault();
+                sumbitMonth('isb_dock_Form');
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>

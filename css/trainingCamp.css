@@ -1,0 +1,94 @@
+
+/*trainingCamp-provide*/
+.trainingCamp-provide {
+    height: 1842px;
+    margin-top: 60px;
+}
+
+.trainingCamp-provide >div {
+    padding-left: 20px;
+    margin: 0px auto;
+}
+
+/*leaveWord*/
+.leaveWord {
+    height: 200px;
+    text-align: center;
+}
+
+.leaveWord >div {
+    /*border: 2px solid red;*/
+    text-align: center;
+}
+
+.leaveWord table{
+    margin: 0px auto;
+    left: 0px !important;
+}
+
+/*springTrainingCamp*/
+.stc-kecheng {
+    position: relative;
+    height: 459px;
+    margin-top: 60px;
+}
+
+.stc-introduce {
+    position: relative;
+    height: 225px;
+}
+
+.stc-objective {
+    position: relative;
+    height: 254px;
+}
+
+.stc-content {
+    position: relative;
+    height: 840px;
+}
+
+/*sprintCamp*/
+.sc-kecheng {
+    position: relative;
+    height: 468px;
+    margin-top: 60px;
+}
+
+.sc-introduce {
+    position: relative;
+    height: 165px;
+}
+
+.sc-objective {
+    position: relative;
+    height: 248px;
+}
+
+.sc-content {
+    position: relative;
+    height: 894px;
+}
+
+
+/*winterTrainingCamp*/
+.wtc-kecheng {
+    position: relative;
+    height: 459px;
+    margin-top: 60px;
+}
+
+.wtc-introduce {
+    position: relative;
+    height: 177px;
+}
+
+.wtc-objective {
+    position: relative;
+    height: 268px;
+}
+
+.wtc-content {
+    position: relative;
+    height: 874px;
+}

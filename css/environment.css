@@ -1,0 +1,172 @@
+
+/*environment-homePage*/
+.environment-homePage {
+    position: relative;
+    /*top: 60px;*/
+    margin-top: 60px;
+    height: 260px;
+    min-width: 1280px;
+    background-image: url("../img/environment/icon_bg6.png");
+    text-align: center;
+    /*border: 5px solid red;*/
+}
+
+.environment-homePage p {
+    z-index: 99;
+    position: relative;
+    top: 100px;
+    height: 260px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+/*environment-train*/
+.environment-train {
+    position: relative;
+    height: 452px;
+    background-color: #ffffff;
+}
+
+.environment-train >div {
+    position: relative;
+    height: 452px;
+    width: 1280px;
+    min-width: 1280px;
+    margin: 0px auto;
+    background-image: url("../img/environment/environment_bg01.png");
+    /*border: 2px solid red;*/
+}
+
+
+/*environment-flowPath*/
+.environment-flowPath {
+    /*position: relative;*/
+    height: 520px;
+    min-width: 1280px;
+    background-image: url("../img/environment/environment_bg02.png");
+
+}
+
+.environment-flowPath >div {
+    position: relative;
+    height: 310px;
+    width: 1280px;
+    min-width: 1280px;
+    top: 115px;
+    margin: 0px auto;
+    text-align: center;
+    /*border: 2px solid red;*/
+}
+
+
+/*environment-workAndRest*/
+.environment-workAndRest {
+    position: relative;
+    height: 380px;
+    min-width: 1280px;
+    color: #ffffff;
+}
+
+.environment-workAndRest >div {
+    position: relative;
+    height: 414px;
+    width: 1280px;
+    min-width: 1280px;
+    margin: 0px auto;
+    background-image: url("../img/environment/environment_bg03.jpg");
+    /*border: 2px solid black;*/
+}
+
+/*environment-studying*/
+.environment-studying {
+    position: relative;
+    padding-top: 30px;
+    height: 320px;
+    min-width: 1200px;
+    background-color: #f5f5f5;
+}
+
+.environment-studying p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px!important;
+    color: #0b0400;
+    text-align: center;
+}
+
+.environment-studying >.main-div p {
+    font-size: 18px;
+    margin-top: 50px;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.environment-studying >.main-div >div {
+    position: relative;
+}
+
+.environment-studying >.main-div >div >div {
+    position: relative;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    margin: 30px 10px 0px 10px;
+    background-color: #ffffff;
+}
+
+.environment-studying >.main-div >div >div >div {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.environment-studying-ceshi {}
+
+.environment-studying-ceshi >div {
+    background-image: url("../img/environment/icon_chehsi2.png");
+}
+
+.environment-studying-jiangshou {}
+
+.environment-studying-jiangshou >div {
+    background-image: url("../img/environment/icon_jiangshou.png");
+}
+
+.environment-studying-ketang {}
+
+.environment-studying-ketang >div {
+    background-image: url("../img/environment/icon_ketang.png");
+}
+
+.environment-studying-chumen {}
+
+.environment-studying-chumen >div {
+    background-image: url("../img/environment/icon_chumen.png");
+}
+
+.environment-studying-kehou {}
+
+.environment-studying-kehou >div {
+    background-image: url("../img/environment/icon_kehou.png");
+}
+
+.environment-studying-chaxun {}
+
+.environment-studying-chaxun >div {
+    background-image: url("../img/environment/icon_chaxun.png");
+}
+
+
+.environment-studying >.main-div >div >div p {
+    position: relative;
+    top: -10px;
+}
+
+.environment-studying >.main-div >div >div:hover {
+    background-color: #ffe400;
+}
+
+
